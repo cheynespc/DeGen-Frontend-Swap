@@ -296,7 +296,7 @@ const MigrateV2 = () => {
                 {/* <div className="flex justify-between items-center p-3">
                     <BackArrow to="/pool" />
                     <div>Select your wallet</div>
-                    <QuestionHelper text={`Migrate your ${exchange} LP tokens to SushiSwap LP tokens.`} />
+                    <QuestionHelper text={`Migrate your ${exchange} LP tokens to DeGenHaus LP Tokens.`} />
                 </div> */}
                 {!account ? (
                     <Typography variant="body" className="text-primary text-center p-4">

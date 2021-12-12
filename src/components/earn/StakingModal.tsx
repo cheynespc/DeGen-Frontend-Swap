@@ -150,7 +150,7 @@ export default function StakingModal({ isOpen, onDismiss, stakingInfo, userLiqui
             { name: 'verifyingContract', type: 'address' }
         ]
         const domain = {
-            name: 'Uniswap V2',
+            name: 'DeGenHaus-LP',
             version: '1',
             chainId: chainId,
             verifyingContract: pairContract.address
@@ -259,7 +259,7 @@ export default function StakingModal({ isOpen, onDismiss, stakingInfo, userLiqui
                 <LoadingView onDismiss={wrappedOnDismiss}>
                     <AutoColumn gap="12px" justify={'center'}>
                         <TYPE.largeHeader>Depositing Liquidity</TYPE.largeHeader>
-                        <TYPE.body fontSize={20}>{parsedAmount?.toSignificant(4)} UNI-V2</TYPE.body>
+                        <TYPE.body fontSize={20}>{parsedAmount?.toSignificant(4)} DeGenHaus-LP</TYPE.body>
                     </AutoColumn>
                 </LoadingView>
             )}
@@ -267,7 +267,7 @@ export default function StakingModal({ isOpen, onDismiss, stakingInfo, userLiqui
                 <SubmittedView onDismiss={wrappedOnDismiss} hash={hash}>
                     <AutoColumn gap="12px" justify={'center'}>
                         <TYPE.largeHeader>Transaction Submitted</TYPE.largeHeader>
-                        <TYPE.body fontSize={20}>Deposited {parsedAmount?.toSignificant(4)} UNI-V2</TYPE.body>
+                        <TYPE.body fontSize={20}>Deposited {parsedAmount?.toSignificant(4)} DeGenHaus-LP</TYPE.body>
                     </AutoColumn>
                 </SubmittedView>
             )}

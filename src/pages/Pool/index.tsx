@@ -133,7 +133,7 @@ export default function Pool() {
     return (
         <>
             <Helmet>
-                <title>Pool | DeGen Haus</title>
+                <title>Liquidity | DeGen Haus</title>
             </Helmet>
             <PageWrapper>
                 <SwapPoolTabs active={'pool'} />

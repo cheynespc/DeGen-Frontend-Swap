@@ -13,7 +13,7 @@ const solutions = [
     {
         name: 'Docs',
         description: 'Documentation for users of DeGen Haus.',
-        href: 'https://docs.horus.exchange'
+        href: 'https://docs.degen.haus'
     },
     {
         name: 'Github',

@@ -110,14 +110,14 @@ export default function NetworkModal(): JSX.Element | null {
             <div className="text-2xl font-bold mb-3 text-high-emphesis">Select a Network</div>
 
             <div className="text-lg text-primary mb-6">
-                You are currently browsing <span className="font-bold text-pink">HORUS</span>
+                You are currently connected to <span className="font-bold text-pink">DeGenHaus</span>
                 <br /> on the <span className="font-bold text-blue">{NETWORK_LABEL[chainId]}</span> network
             </div>
 
             <div className="flex flex-col space-y-5 overflow-y-auto">
                 {[
-                    ChainId.MAINNET
-                    //ChainId.FANTOM,
+                    //ChainId.MAINNET
+                    ChainId.FANTOM,
                     //ChainId.BSC,
                     //ChainId.MATIC,
                     //ChainId.HECO,

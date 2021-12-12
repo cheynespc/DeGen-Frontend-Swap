@@ -125,7 +125,7 @@ export default function RemoveLiquidity({
                 { name: 'verifyingContract', type: 'address' }
             ]
             const domain = {
-                name: 'SushiSwap LP Token',
+                name: 'DeGenHaus LP Token',
                 version: '1',
                 chainId: chainId,
                 verifyingContract: pair.liquidityToken.address
@@ -389,7 +389,7 @@ export default function RemoveLiquidity({
             <>
                 <RowBetween>
                     <Text color={theme.text2} fontWeight={500} fontSize={16}>
-                        {'UNI ' + currencyA?.getSymbol(chainId) + '/' + currencyB?.getSymbol(chainId)} Burned
+                        {'DeGenHaus LP ' + currencyA?.getSymbol(chainId) + '/' + currencyB?.getSymbol(chainId)} Burned
                     </Text>
                     <RowFixed>
                         <DoubleCurrencyLogo currency0={currencyA} currency1={currencyB} margin={true} />
